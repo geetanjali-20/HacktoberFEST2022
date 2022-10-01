@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  margin: 40px auto;
+  width: 700px;
+  border: 5px solid black;
+  position: relative;
+}
+nav {
+  background-color: #f8f8f8;
+}
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.main-header {
+  padding: 15px;
+}
+p strong {
+  font-size: 25px;
+}
+p {
+  margin-bottom: 10px;
+}
+.shipping {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+}
+.box {
+  margin: 20px 0;
+}
+.b {
+}
+a:link {
+  color: black;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.sale {
+  position: absolute;
+  background-color: rgb(242, 30, 30);
+  color: #fff;
+  letter-spacing: 4pt;
+  text-align: center;
+  padding: 10px;
+  left: -25px;
+  top: -25px;
+}
+button {
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  width: 100%;
+  border: 5px solid black;
+  font-size: 20px;
+}
+li {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
