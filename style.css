@@ -37,8 +37,7 @@ p {
 .box {
   margin: 20px 0;
 }
-.b {
-}
+
 a:link {
   color: black;
   font-weight: bold;
@@ -78,4 +77,29 @@ li {
 button:hover {
   color: black;
   background-color: white;
+}
+
+
+/* Dark Mode Button */
+
+body {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.btn{
+  color: white;
+  border-radius: 20px;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 17rem;
 }
